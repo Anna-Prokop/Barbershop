@@ -4,55 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"/>
     <title>Barbershop</title>
 </head>
 <body>
     <header>
-        <a href="#">
+        <nav class="navigation">
+        <a class="navigation-logo" href="#">
         <img src="images/logo_barbershop.jpg" alt="logo of barbershop" width="69" height="56"/>
     </a>
-    <nav>
-        <ul>
-            <li><a href="#">O nas</a></li>
-            <li><a href="#">Usługi i ceny</a></li>
-            <li><a href="#">Barberzy</a></li>
-            <li><a href="#">Kontakt</a></li>
+    
+        <ul class="navigation-list">
+            <li class="navigation-list-item"><a class="navigation-list-link" href="#">O nas</a></li>
+            <li class="navigation-list-item"><a class="navigation-list-link" href="#">Usługi i ceny</a></li>
+            <li class="navigation-list-item"><a class="navigation-list-link" href="#">Barberzy</a></li>
+            <li class="navigation-list-item"><a class="navigation-list-link" href="#">Kontakt</a></li>
         </ul>
     </nav>
-    <a href="tel:48111111111">+48 111 111 111</a>
-    <button type="button">REJESTRACJA ONLINE</button>
+    <a class="contact-phone" href="tel:48111111111">+48 111 111 111</a>
+    <button class="module-btn" type="button">REJESTRACJA ONLINE</button>
     </header>
     <main>
         <!--section Hero-->
-        <section>
-            <div>
-              <ul>
-                  <li><a href="#">Instagram</a></li>
-                  <li><a href="#">YouTube</a></li>
+        <section class="hero">
+            <div class="hero-left-side">
+              <ul class="social-list">
+                  <li class="social-item" ><a class="social-link" href="#">Instagram</a></li>
+                  <li class="social-item"><a class="social-link" href="#">YouTube</a></li>
               </ul>
             </div>
-            <div>
-                <p>A hair salon for men</p>
+            <div class="hero-right-side">
+                <p class="over-the-title">A hair salon for men</p>
                 <h1>BarberShop</h1>
-                <p>Jesteśmy ekspertami w strzyżeniu. 
+                <p class="description">Jesteśmy ekspertami w strzyżeniu. 
                     Pracujemy szybko, ostrożnie i elegancko.</p>
             </div>
         </section>
 
         <!--section About us-->
-        <section>
-            <div><ul>
-                <li><img src="images/about_us/about_us_barber1.jpg" alt="Barber is shaving a beard" width="270" height="445"></li>
-                <li><img src="images/about_us/about_us_barber2.jpg" alt="Barber is cutting hair" width="270" height="445"></li>
-            </ul></div>
-            <div>
-                <p>O NAS</p>
-                <h2>Najlepszy Barbershop 
+        <section class="about-us">
+            <div class="about-us-left-side">
+                <ul class="about-us-list">
+                <li class="about-us-item"><img src="images/about_us/about_us_barber1.jpg" alt="Barber is shaving a beard" width="270" height="445"></li>
+                <li class="about-us-item"><img src="images/about_us/about_us_barber2.jpg" alt="Barber is cutting hair" width="270" height="445"></li>
+            </ul>
+        </div>
+            <div class="about-us-right-side">
+                <p class="over-the-title over-the-title-dark-color">O NAS</p>
+                <h2 class="main-title">Najlepszy Barbershop 
                     w Twoim mieście </h2>
-                <p>Jeśli chcesz dodać pewności do swojego stylu i wyglądu- jesteś w dobrym miejscu.</p>
-                <p>Jesteśmy zespołem, który nigdy nie stoi w miejscu i jest cały czas w poszukiwaniu coraz lepszych rozwiązań. Kiedy przyjdziesz do nas, już nigdy nie będziesz mógł zrezygnować ze swojego nowego stylu.
+                <p class="description">Jeśli chcesz dodać pewności do swojego stylu i wyglądu- jesteś w dobrym miejscu.</p>
+                <p class="about-us-text">Jesteśmy zespołem, który nigdy nie stoi w miejscu i jest cały czas w poszukiwaniu coraz lepszych rozwiązań. Kiedy przyjdziesz do nas, już nigdy nie będziesz mógł zrezygnować ze swojego nowego stylu.
                     Jesteśmy zespołem, który zawsze jest z klientem na “TY”, dobrze wiemy, co klient chcę. Chętnie zrobimy upgrade Twojemu wyglądu!</p>
-                    <button type="button">REJESTRACJA ONLINE</button>
+                    <button class="module-btn" type="button">REJESTRACJA ONLINE</button>
             </div>
         </section>
         <!--Services and prices-->
@@ -113,17 +120,35 @@
                     <img src="images/our_team/our_barber1.jpg" alt="photo of first barber" width="370" height="346#">
                     <h3>John Smith</h3>
                     <p>Extreme Barber</p>
-                    <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a></li>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                   </li>
                 <li>
                     <img src="images/our_team/our_barber2.jpg" alt="photo of second barber" width="370" height="346#">
                     <h3>Michele Doe</h3>
                     <p>Extreme Barber</p>
-                    <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a></li>
+                     <ul>
+                         <li><a href="#"></a></li>
+                         <li><a href="#"></a></li>
+                         <li><a href="#"></a></li>
+                         <li><a href="#"></a></li>
+                     </ul>
+                   </li>
                 <li>
                     <img src="images/our_team/our_barber3.jpg" alt="photo of third barber" width="370" height="346#">
                     <h3>Alan Black</h3>
                     <p>Extreme Barber</p>
-                    <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a></li>
+                     <ul>
+                         <li><a href="#"></a></li>
+                         <li><a href="#"></a></li>
+                         <li><a href="#"></a></li>
+                         <li><a href="#"></a></li>
+                     </ul> 
+                   </li> 
             </ul>
         </section>
 
