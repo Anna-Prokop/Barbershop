@@ -9,6 +9,52 @@ body {
 }
 
 
+/*==components==*/
+
+.module-btn {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    
+    /*color: #FFFFFF;*/
+}
+
+.over-the-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.364;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.667;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+    
+.main-title {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.167;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+    
+.main-title-light-color {
+    color: #FFFFFF;
+}
+
+.over-the-title-dark-color {
+    color: #303030;
+    }
+    
 /*==header==*/
 
 .navigation-list-link {
@@ -35,15 +81,6 @@ letter-spacing: 0.1em;
 /*color: #FFFFFF;*/
 }
 
-.module-btn {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.333;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    
-    /*color: #FFFFFF;*/
-}
 
 
 /*==hero==*/
@@ -60,14 +97,7 @@ color: #303030;
 .social-link:focus{
     color: var(--main-color);
 }
-.over-the-title {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.364;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-color: rgba(157, 164, 189, 0.6);
-}
+
 
 h1{
 font-family: var(--secondary-font);
@@ -77,27 +107,10 @@ line-height: 1.181;
 letter-spacing: 0.05em;
 /*color: #FFFFFF;*/
 }
-.description{
-font-weight: 400;
-font-size: 18px;
-line-height: 1.667;
-letter-spacing: 0.02em;
-color: #9DA4BD;
-}
 
 /*==about us==*/
-.over-the-title-dark-color {
-color: #303030;
-}
 
-.main-title {
-font-family: var(--secondary-font);
-font-weight: 700;
-font-size: 42px;
-line-height: 1.167;
-letter-spacing: 0.05em;
-color: #303030;
-}
+
 
 .about-us-text {
 font-weight: 400;
@@ -105,4 +118,80 @@ font-size: 14px;
 line-height: 1.857;
 letter-spacing: 0.02em;
 color: #555555;
+}
+
+/*==Services==*/
+
+.services-list-name,
+.services-list-price {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.667;
+letter-spacing: 0.02em;
+color:#9DA4BD;
+}
+
+/*==Why us==*/
+
+.why-us-list-number {
+font-weight: 700;
+font-size: 42px;
+line-height: 1.357;
+text-align: center;
+letter-spacing: 0.05em;
+color: #303030;
+}
+.why-us-list-text{
+font-weight: 600;
+font-size: 11px;
+line-height: 1.363;
+text-align: center;
+color: #303030;
+}
+
+/*==our team==*/
+
+.our-team-list-name {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.389;
+text-align: center;
+letter-spacing: 0.02em;
+color: #303030;
+}
+
+.our-team-list-position {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.357;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--main-color);
+}
+
+/*==gallery==*/
+
+
+/*==contact==*/
+.address-list-link,
+.contact-hours-text {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.667;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
+
+.contact-info .over-the-title {
+    color: #FFFFFF;
+}
+
+/*==footer==*/
+.footer-copy {
+font-weight: 600;
+font-size: 11px;
+line-height: 1.364;
+letter-spacing: 0.2em;
+color: #9DA4BD;
 }
